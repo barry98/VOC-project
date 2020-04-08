@@ -15,3 +15,7 @@ Deze week:
 
 Uitslag NER tests:
 - SpaCy basis Nederlands model herkent ongeveer 33% van alle namen 1 op 1 met hoe ze geannoteerd zijn.
+
+Deliverables voor volgende week:
+- Annotatie guideline opzet klaar 
+- Eerste resultaten NER modellen binnen
