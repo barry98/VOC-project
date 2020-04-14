@@ -23,3 +23,6 @@ Deliverables van afgelopen week:
 
 Deliverables van komende week:
 - Eerste resultaten NEL model
+
+Mogelijk woordenboek voor NER training:
+- Transkribus vragen aan Jirsi
