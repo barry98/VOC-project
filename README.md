@@ -16,6 +16,7 @@ Deze week:
 Uitslag NER tests:
 - SpaCy basis Nederlands model herkent ongeveer 33% van alle namen 1 op 1 met hoe ze geannoteerd zijn.
 - SpaCy basis Nederlands model, huidige recall van 0.6 met een levenshtein distance van 3 of 0.55 met een levenshtein distance van 2. Zonder levenshtein distance een recall van 0.37.
+- BERTje Nederlands model, huidige recall van 0.66 met levenshtein distance van 3 of 0.62 met levenshtein distance van 2.
 
 Deliverables van afgelopen week:
 - Annotatie guideline opzet klaar 
