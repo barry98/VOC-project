@@ -1,5 +1,9 @@
 # VOC-project
 
+Deliverables van afgelopen week:
+- Annotatie guideline opzet klaar 
+- Eerste resultaten NER modellen binnen
+
 Klaar:
 - PICCL klaar voor gebruik
 - Data gecleaned van enters
@@ -18,12 +22,10 @@ Uitslag NER tests:
 - SpaCy basis Nederlands model, huidige recall van 0.6 met een levenshtein distance van 3 of 0.55 met een levenshtein distance van 2. Zonder levenshtein distance een recall van 0.37.
 - BERTje Nederlands model, huidige recall van 0.66 met levenshtein distance van 3 of 0.62 met levenshtein distance van 2.
 
-Deliverables van afgelopen week:
-- Annotatie guideline opzet klaar 
-- Eerste resultaten NER modellen binnen
 
 Deliverables van komende week:
 - Eerste resultaten NEL model
+- Eerste deel python annotatie script af
 
 Mogelijk woordenboek voor NER training:
 - Transkribus vragen aan Jirsi
