@@ -27,3 +27,6 @@ output/vocab.txt
 cached_test_bert-base-dutch-cased_128
 tesseeest.txt
 test.txt
+*.docx
+*.csv
+*.txt
