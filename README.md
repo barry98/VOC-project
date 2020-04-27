@@ -11,7 +11,7 @@ Deliverables van afgelopen week:
 Klaar:
 
 Deze week:
-- NER post correctie
+- NER post correctie --> Namenlijst, Oud Nederlands woordenboek
 - NEL stap 2 selectie vernauwen
 - Begin van annotatie
 
