@@ -1,31 +1,23 @@
 # VOC-project
 
 Deliverables van afgelopen week:
-- Annotatie guideline opzet klaar 
-- Eerste resultaten NER modellen binnen
+- Gebruik van gestructureerde data voor verbeteren NER model:
+  - Rang --> Veel voorkomende rangen worden makkelijk herkend (matroos, bootsman, soldaat) andere rangen wat lastiger (bijv. schipper wordt ook wel kapitein luitenant of een aforkting hiervan genoemd)
+  - Locatie --> NER voor locaties is teleurstellend, gebruik van gestructureerded data geeft een kleine verbetering
+  - Schip --> Schip soms moeilijk uit de tekst te halen vanwege grote verschillen in taal
+- Annotatie script klaar voor gebruik
+- Annotatie Guidelines klaar voor feedback
 
 Klaar:
-- PICCL klaar voor gebruik
-- Data gecleaned van enters
-- PICCL over alle notaris data heen laten gaan
-- Wat meer inzicht krijgen in data:
-  - Aantal namen uit geannoteerde notaris data in voc clustered dataset (zonder Levenstein Distance 19,119, ongeveer 29% van alle beschikbare namen)
-  - Datastories (met Eva): Word Cloud van voorkomende namen in voc clustered dataset, verdeling van rangen in voc clustered dataset  
-- Opzetten evaluatie van NER modellen
-- Begin opzet van annotatie
 
 Deze week:
-- Eerste tests met NER (BERTje)
-
-Uitslag NER tests:
-- SpaCy basis Nederlands model herkent ongeveer 33% van alle namen 1 op 1 met hoe ze geannoteerd zijn.
-- SpaCy basis Nederlands model, huidige recall van 0.6 met een levenshtein distance van 3 of 0.55 met een levenshtein distance van 2. Zonder levenshtein distance een recall van 0.37.
-- BERTje Nederlands model, huidige recall van 0.66 met levenshtein distance van 3 of 0.62 met levenshtein distance van 2.
-
+- NER post correctie
+- NEL stap 2 selectie vernauwen
+- Begin van annotatie
 
 Deliverables van komende week:
-- Eerste resultaten NEL model
-- Eerste deel python annotatie script af
+- Mogelijk eerste resultaten van de complete pipeline (als annotatie binnen is)
+- Stap 2 van de NEL voor het grootste gedeelte af
 
 Mogelijk woordenboek voor NER training:
 - Transkribus vragen aan Jirsi
