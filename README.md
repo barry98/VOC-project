@@ -9,11 +9,12 @@ Deliverables van afgelopen week:
 - Annotatie Guidelines klaar voor feedback
 
 Klaar:
+- Begin van annotatie
 
 Deze week:
 - NER post correctie --> Namenlijst, Oud Nederlands woordenboek
 - NEL stap 2 selectie vernauwen
-- Begin van annotatie
+
 
 Deliverables van komende week:
 - Mogelijk eerste resultaten van de complete pipeline (als annotatie binnen is)
