@@ -30,3 +30,6 @@ test.txt
 *.docx
 *.csv
 *.txt
+*.json
+*.pdf
+*.zip

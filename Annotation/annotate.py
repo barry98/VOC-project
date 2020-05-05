@@ -19,7 +19,7 @@ def annotate(df, prev=None):
         if c == 21:
             print('Saving current progress.')
             final['vocop_match'][start:] = holder
-            final.to_json('result.json')
+            final.to_json(dataset + '_result.json')
             c = 0
         notary_date = datetime.strptime(row.datering, '%Y-%m-%d')
         if row.data_matches != 0 and row.data_matches != '0':
@@ -78,13 +78,17 @@ def annotate(df, prev=None):
     final['vocop_match'][start:] = holder
     return final
 
-
-
-subset = pd.read_json('annotationsubset.json')
+print("Please enter the name of the received json file.")
+dataset = input()
+if '.json' in dataset:
+    subset = pd.read_json(dataset)
+    dataset = dataset[:-5]
+else:
+    subset = pd.read_json(dataset + '.json')
 try:
-    prev = pd.read_json('result.json')
+    prev = pd.read_json(dataset + '_result.json')
     df = annotate(subset, prev)
 except ValueError:
     df = annotate(subset)
 
-df.to_json('result.json')
+df.to_json(dataset + '_result.json')
