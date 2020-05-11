@@ -18,3 +18,6 @@ Deliverables van komende week:
 
 Mogelijk woordenboek voor NER training:
 - Transkribus vragen aan Jirsi
+
+Python package gemaakt voor Learn to Rank:
+https://github.com/tensorflow/ranking/blob/master/tensorflow_ranking/extension/README.md
