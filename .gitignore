@@ -33,3 +33,6 @@ test.txt
 *.json
 *.pdf
 *.zip
+Annotation/Batches Chiel/annotate.py
+Annotation/Batches Patrick/annotate.py
+Annotation/Batches Thom/annotate.py
