@@ -36,3 +36,21 @@ test.txt
 Annotation/Batches Chiel/annotate.py
 Annotation/Batches Patrick/annotate.py
 Annotation/Batches Thom/annotate.py
+*.index
+*.data-00000-of-00001
+*.pb
+*.meta
+*.DESKTOP-3QT3VIS
+*.pbtxt
+LTR_models/listwise_higher_dropout/checkpoint
+test1/checkpoint
+test/checkpoint
+LTR_models/pointwise_lower_learning/checkpoint
+LTR_models/pointwise_higher_dropout/checkpoint
+LTR_models/pointwise/checkpoint
+LTR_models/pairwise/checkpoint
+LTR_models/listwise_lower_learning/checkpoint
+LTR_models/listwise_combined/checkpoint
+LTR_models/listwise/checkpoint
+LTR_models/6_features/checkpoint
+checkpoint
