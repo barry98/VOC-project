@@ -54,3 +54,56 @@ LTR_models/listwise_combined/checkpoint
 LTR_models/listwise/checkpoint
 LTR_models/6_features/checkpoint
 checkpoint
+*.pt
+*.bin
+RL/rl models/current/1004no
+RL/rl models/current/100no
+RL/rl models/current/1003no
+RL/rl models/current/1002no
+RL/rl models/current/20no
+RL/rl models/current/30no
+RL/rl models/current/40no
+RL/rl models/current/50no
+RL/rl models/current/60no
+RL/rl models/current/70no
+RL/rl models/current/80no
+RL/rl models/current/90no
+RL/rl models/current/minimum
+RL/rl models/old/10_10
+RL/rl models/old/20_20
+RL/rl models/old/40_40
+RL/rl models/old/40_40_2
+RL/rl models/old/80_no
+RL/rl models/old/less_is_more
+RL/rl models/old/less_is_more2
+RL/rl models/shit/10no
+RL/rl models/shit/20no
+RL/rl models/shit/30no
+RL/rl models/shit/40no
+RL/rl models/shit/50no
+RL/rl models/better_current/90no
+RL/rl models/better_current/80no
+RL/rl models/better_current/70no
+RL/rl models/better_current/60no
+RL/rl models/better_current/50no
+RL/rl models/better_current/40no
+RL/rl models/better_current/30no
+RL/rl models/better_current/20no
+RL/rl models/better_current/10no
+RL/rl models/better_current/100no
+RL/rl models/90no
+RL/rl models/80no
+RL/rl models/70no
+RL/rl models/60no
+RL/rl models/50no
+RL/rl models/40no
+RL/rl models/30no
+RL/rl models/20no
+RL/rl models/10no
+RL/rl models/100no
+NER/ship_ner_test/vocab/vectors
+NER/ship_ner_test/ner/cfg
+NER/ship_ner_test/ner/model
+NER/ship_ner_test/ner/moves
+NER/ship_ner_test/tokenizer
+NER/ship_ner_test/vocab/key2row
